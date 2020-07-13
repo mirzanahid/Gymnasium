@@ -193,6 +193,90 @@ $('#testimonial-part .testi-slider').slick({
 
 
 //testimonial slider end
+//membership slider start
+
+
+
+
+$('#membership-part .slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    centerMode:true,
+    centerPadding:true,
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+                 autoplay:true, 
+            }
+    },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                 autoplay:true ,
+               
+            }
+    },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay:true ,
+            }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//membership slider end
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //counter up js start

@@ -71,13 +71,16 @@ nav {
 
 }
 nav button {
-    color: #000;
-    border: 1px solid #000;
+    color: #fff;
+
     margin-right: 10px;
+   
 }
 nav .btn{
     
-    border: 1px solid #000;}
+    border: 1px solid #fff;
+   
+}
 nav .logo {
     background: #323232;
     width: 200px;
@@ -141,7 +144,14 @@ nav ul li a:hover:after {
  
    
 }
- 
+
+.sticky .logo{
+    height: 50.5px;
+    padding: 2px 42px;
+}
+.sticky .logo img{
+    width: 100%;
+}
 /*==================================================
                 nav bar css end
   ==================================================*/
@@ -942,6 +952,7 @@ nav ul li a:hover:after {
 
 #membership-part .box {
     margin-top: 30px;
+    outline-color: none;
 }
 
 #membership-part .box .top {
@@ -1039,12 +1050,12 @@ nav ul li a:hover:after {
     text-transform: uppercase;
 }
 
-#membership-part .box:hover .top {
+#membership-part .slick-center .top {
     background: #e23e38;
     color: #fff;
 }
 
-#membership-part .box:hover .bottom {
+#membership-part .slick-center .bottom {
     background: #e23e38;
     color: #fff;
 }
