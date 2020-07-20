@@ -38,7 +38,7 @@ $('#banner-part .banner-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     responsive: [
         {
             breakpoint: 992,
